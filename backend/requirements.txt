@@ -1,0 +1,7 @@
+aiosqlite
+click
+fastapi
+pydantic<2.0.0
+tortoise-orm
+typing-extensions
+uvicorn
