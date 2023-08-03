@@ -1,3 +1,4 @@
+from fastapi import UploadFile, File, Form
 from tortoise.contrib.pydantic.base import PydanticModel
 
 class RuleUpdateSchema(PydanticModel):
