@@ -1,0 +1,26 @@
+.card {
+    background-color: var(--main-bg-color);
+    color: var(--main-font-color);
+    height: 162px;
+    border: var(--main-border-size) solid var(--main-border-color);
+    border-radius: var(--main-border-radius);
+}
+
+.word-card {
+    max-height: 162px;
+    height: 162px;
+
+    max-width: 220px;
+    width: 220px;
+
+    padding: 39px 9px 9px 39px;    
+}
+
+.word__original {
+    font-size: 22px;
+}
+
+.word__translated {
+    font-size: 16px;
+    color: #7E7E7E;
+}
